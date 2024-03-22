@@ -19,4 +19,13 @@ nav a.nav-link{
   margin-left: 0.75rem;
   margin-right: 0.75rem;
   color: white !important;
+  border-bottom: 0.1875rem solid rgba(255, 255, 255, 0);
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus{
+  border-bottom: 0.1875rem solid orange;
+}
+
+.navbar-nav > li > a:hover{
+  border-bottom: 0.1875rem solid orange;
 }
