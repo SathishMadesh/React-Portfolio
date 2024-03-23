@@ -54,6 +54,12 @@ nav a.nav-link{
   text-transform: uppercase;
 }
 
+@media(max-width: 768px) {
+  .main-info h1{
+    font-size: 2rem;
+  }
+}
+
 /******TYPED TEXT*******/
 
 .typed-text{
@@ -61,13 +67,71 @@ font-size: 1.5rem;
 color: white;
 }
 
+@media(max-width: 300px) {
+  .typed-text{
+    font-size: 1rem;
+  }
+}
+
 /******MAIN BUTTON*******/
 
 .btn-main{
-  border: 1px solid white;
+  border: 2px solid white;
   text-transform: uppercase;
   border-radius: 5px;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
   color: white;
   margin-top: 2rem;
+}
+
+.btn-main:hover{
+  text-decoration: none;
+  background-color: orange;
+  color: white;
+  transition: .5s;
+  border: orange;
+}
+
+
+/******ABOUT ME*******/
+
+#about-me{
+  padding: 2rem 0 2rem 0;
+}
+
+/* .about-section .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+.image-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-section{
+  display: flex;
+  justify-content: center;
+}
+
+.my-image-section{
+  display: flex;
+  justify-content: center;
+}
+
+.my-image-section img{
+  width: 70% !important;
+  border-radius: 10px;
+}
+
+.about-content-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about-content-title{
+  font-size: 2rem;
 }
