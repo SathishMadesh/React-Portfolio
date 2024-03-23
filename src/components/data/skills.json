@@ -1,34 +1,42 @@
 [
     {
-        "title": "logo 1",
+        "key" : 1,
+        "title": "HTML",
         "image": "images/html.png"
     },
     {
-        "title": "logo 2",
+        "key" : 2,
+        "title": "CSS",
         "image": "images/css.png"
     },
     {
-        "title": "logo 3",
+        "key" : 3,
+        "title": "Bootstrap",
         "image": "images/bootstrap.png"
     },
     {
-        "title": "logo 4",
+        "key" : 4,
+        "title": "JavaScript",
         "image": "images/js.png"
     },
     {
-        "title": "logo 5",
+        "key" : 5,
+        "title": "React",
         "image": "images/react.png"
     },
     {
-        "title": "logo 6",
+        "key" : 6,
+        "title": "Python",
         "image": "images/python.png"
     },
     {
-        "title": "logo 7",
+        "key" : 7,
+        "title": "MySQL",
         "image": "images/mysql.png"
     },
     {
-        "title": "logo 8",
+        "key" : 8,
+        "title": "Django",
         "image": "images/django.png"
     }
 ]
