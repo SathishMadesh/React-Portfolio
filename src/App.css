@@ -1,8 +1,11 @@
 
+:root{
+  --box-shadow: 5px 5px 10px 0px orange;
+}
+
 body{
   font-family: "Poppins", sans-serif;
 }
-
 
 /**********NAVBAR***********/
 
@@ -137,11 +140,13 @@ color: white;
 
 .about-content-title{
   font-size: 2rem;
+  font-weight: 500;
+  color: orange;
 }
 
 @media(max-width: 990px){
   .about-content > p{
-    font-size: 12px;
+    font-size: 15px;
   }
 }
 
@@ -162,3 +167,29 @@ color: white;
 
 /******SKILLS*******/
 
+.skills {
+  width: 90%;
+}
+
+.skills-container{
+  display: flex;
+  justify-content: center;
+  padding: 2rem 0 2rem 0;
+  color: orange;
+}
+
+.item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  margin: 1rem;
+  border: 0.1rem solid orange;
+  box-shadow: var(--box-shadow);
+}
+
+.item  img{
+  height: 8rem !important;
+}
