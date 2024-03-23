@@ -1,0 +1,34 @@
+[
+    {
+        "title": "logo 1",
+        "image": "images/html.png"
+    },
+    {
+        "title": "logo 2",
+        "image": "images/css.png"
+    },
+    {
+        "title": "logo 3",
+        "image": "images/bootstrap.png"
+    },
+    {
+        "title": "logo 4",
+        "image": "images/js.png"
+    },
+    {
+        "title": "logo 5",
+        "image": "images/react.png"
+    },
+    {
+        "title": "logo 6",
+        "image": "images/python.png"
+    },
+    {
+        "title": "logo 7",
+        "image": "images/mysql.png"
+    },
+    {
+        "title": "logo 8",
+        "image": "images/django.png"
+    }
+]
