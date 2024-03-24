@@ -27,7 +27,7 @@ function Projects() {
                                     style={{
                                         // width: "250px",
                                         height: "220px",
-                                        border: "1px solid orange",
+                                        border: "2px solid orange",
                                         borderRadius: "10px"
                                     }}/>
                                     </div>

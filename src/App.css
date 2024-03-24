@@ -204,3 +204,34 @@ color: white;
 .proj-title{
   color: orange;
 }
+
+/**********CONTACT ME***********/
+
+.footer-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icons .items{
+  background-color: black;
+  color: white;
+  margin: 10px;
+  height: 70px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  border: 2px solid orange;
+}
+
+.footer-icons .items:hover{
+  box-shadow: var(--box-shadow);
+  transition: .6s;
+}
+
+.footer-icons .items .icons{
+  font-size: 2rem;
+  color: rgb(243, 222, 184);
+}
