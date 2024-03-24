@@ -21,7 +21,7 @@ function Projects() {
                     <h1 className="col-12 proj-title">Projects</h1>
                         {projects.map((data) => (<>
                             <div key={data.id} className="col-lg-4 col-md-6 col-sm-12 my-3 d-flex justify-content-center align-content-center">
-                                <div className="card text-light" style={{width: "auto", border:"2px solid orange", borderRadius:"20px", boxShadow:"5px 5px 10px 0px orange" }}>
+                                <div className="card text-light" style={{width: "auto", border:"2px solid orange", borderRadius:"20px", boxShadow:"5px 5px 10px 0px rgb(246, 217, 163)" }}>
                                     <div className="img d-flex justify-content-center align-content-center p-3">
                                     <img src={data.image} className="card-img-top" alt="..." 
                                     style={{
@@ -33,7 +33,7 @@ function Projects() {
                                     </div>
                                         <div className="card-body text-center">
                                             <h5 className="card-title">{data.title}</h5>
-                                            <p className="card-text">{data.discription}</p>
+                                            {/* <p className="card-text">{data.discription}</p> */}
                                             <a href={data.gitlink} className="btn btn-primary">View Source Code</a>
                                         </div>
                                 </div>

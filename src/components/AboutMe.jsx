@@ -3,12 +3,12 @@ import React from 'react';
 function AboutMe() {
     return (
 
-        <section id="about-me" className="about-section">
+        <section className="about-section pt-3 pb-3 bg-dark text-light">
             <div className="container">
                 <div className="row">
                     <div className="image-section col-md-6">
                         <div className="my-image-section">
-                            <img src="images\my_img.jpg" alt="My-Image" className="img-fluid" style={{ height: '100%', width: 'auto' }} />
+                            <img src="images\my_img(1).jpg" alt="My-Image" className="img-fluid" style={{ height: '100%', width: 'auto' }} />
                         </div>
                     </div>
                     <div className="content-section col-md-6">
