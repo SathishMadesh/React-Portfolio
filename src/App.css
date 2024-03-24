@@ -193,3 +193,14 @@ color: white;
 .item  img{
   height: 8rem !important;
 }
+
+
+/**********PROJECTS***********/
+
+.card{
+  background-color: black;
+}
+
+.proj-title{
+  color: orange;
+}
