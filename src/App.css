@@ -30,9 +30,14 @@ nav a.nav-link{
   border-bottom: 0.1875rem solid orange;
 }
 
+.toggler{
+  font-size: 1.5rem;
+  color: orange;
+}
+
 .header{
   position: relative;
-  background: url(S:\Projects\React-Portfolio\public\images\bg_img.jpg) no-repeat;
+  background: url(bg_img.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   height: 90vh;
@@ -95,31 +100,13 @@ color: white;
   border: orange;
 }
 
-
 /******ABOUT ME*******/
-
-/* #about-me{
-  padding: 2rem 0 2rem 0;
-} */
-
-/* .about-section .container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 
 .image-section{
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
-/* .content-section{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-} */
 
 .my-image-section{
   display: flex;
@@ -130,6 +117,7 @@ color: white;
   width: 70% !important;
   border-radius: 100%;
   margin: 0.7rem 0 0.7rem 0;
+  box-shadow: var(--box-shadow);
 }
 
 .about-content-box{
@@ -144,9 +132,10 @@ color: white;
   color: orange;
 }
 
-@media(max-width: 990px){
+
+@media(max-width: 995px){
   .about-content > p{
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 
@@ -161,7 +150,6 @@ color: white;
 @media(max-width: 768px){
   .my-image-section img{
     width: 60% !important;
-    border-radius: 10px;
   }
 }
 

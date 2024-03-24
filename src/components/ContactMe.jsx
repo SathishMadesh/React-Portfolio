@@ -6,12 +6,12 @@ import { BiLogoGmail } from "react-icons/bi";
 function ContactMe() {
     return (
         <>
-            <div className="footer bg-dark py-3">
+            <div className="footer bg-dark py-3" id="contact">
                 <div className="container">
                     <div className="row">
                         <h1 className="col-12" style={{ color: "orange" }}>Contact Me</h1>
                     </div>
-                    <div className="footer-icons">
+                    <div className="footer-icons" data-aos="zoom-in-up">
                         <a href="https://www.instagram.com/" target="_blank" className="items"><FaInstagram className="icons" /></a>
                         <a href="https://www.linkedin.com/in/sathish-madesh/" target="_blank" className="items"><CiLinkedin className="icons" /></a>
                         <a href="https://github.com/SathishMadesh" target="_blank" className="items"><FaGithub className="icons" /></a>
