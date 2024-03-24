@@ -11,7 +11,7 @@ function Header() {
         typeSpeed = {40}
         backSpeed = {60}
         loop/>
-        <a href="#" className="btn-main">Download CV</a>
+        <a href="https://wa.me/9025255520" className="btn-main">Let's Connect</a>
       </div>
     </div>
   )
