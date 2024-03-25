@@ -47,15 +47,15 @@ Custom CSS is used along with Bootstrap classes to style different components an
 ## Getting Started
 ### Clone the Repository:
 
-git clone <repository_url>
+git clone <repository_url>\
 cd react-portfolio
 
 ### Install Dependencies: (Required)
-npm install React Icons (react-icons@^5.0.1)
-npm install Bootstrap (bootstrap@^4.5.3)
-npm install Axios (axios@^1.6.8)
-npm install AOS (aos@^2.3.4)
-npm install React Typed (react-typed@^2.0.12)
+npm install React Icons (react-icons@^5.0.1)\
+npm install Bootstrap (bootstrap@^4.5.3)\
+npm install Axios (axios@^1.6.8)\
+npm install AOS (aos@^2.3.4)\
+npm install React Typed (react-typed@^2.0.12)\
 
 ### Start the Development Server:
 npm start
