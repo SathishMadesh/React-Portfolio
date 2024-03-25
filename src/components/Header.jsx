@@ -7,7 +7,7 @@ function Header() {
       <div className="main-info">
         <h1><span style={{color:"white", fontSize:"1.5rem", fontStyle:"oblique"}}>Hi! I'm</span> Sathish</h1>
         <ReactTyped className="typed-text"
-        strings={["Front End Development", "Web Development"]}
+        strings={["Front End Developer", "Web Developer"]}
         typeSpeed = {40}
         backSpeed = {60}
         loop/>
