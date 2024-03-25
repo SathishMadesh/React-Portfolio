@@ -7,7 +7,7 @@ function AboutMe() {
                 <div className="row">
                     <div className="image-section col-md-6" >
                         <div className="my-image-section" data-aos="fade-up-right" data-aos-duration="1000">
-                            <img src="images\my_img(1).jpg" alt="My-Image" className="img-fluid" style={{ height: '100%', width: 'auto' }} />
+                            <img src="images\my_img(1).jpg" alt="My-Image" className="img-fluid" style={{ height: '100%' }} />
                         </div>
                     </div>
                     <div className="content-section col-md-6" >

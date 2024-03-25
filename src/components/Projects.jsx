@@ -25,10 +25,9 @@ function Projects() {
                                 <div className="img d-flex justify-content-center align-content-center p-3">
                                     <img src={data.image} className="card-img-top" alt="..." 
                                     style={{
-                                        //width: "300px",
                                         height: "220px",
                                         border: "2px solid black",
-                                        borderRadius: "10px"
+                                        borderRadius: "10px",
                                     }}/>
                                 </div>
                                 <div className="card-body text-center">
